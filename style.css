@@ -1,0 +1,34 @@
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    height: 510px;
+}
+
+button {
+    width: 95px;
+    height: 100px;
+    background-color: green;
+    clear: both;
+    font-size: 2.25rem;
+}
+
+.display {
+    height: 95px;
+    /* max-width: 255px; */
+    border: 1px solid black;
+    margin: 5px;
+    padding: 0px 20px;
+    vertical-align: top;
+}
+
+.display-container {
+    max-width: 398px;
+}
+
+input.display {
+    width: 280px;
+
+}
+
