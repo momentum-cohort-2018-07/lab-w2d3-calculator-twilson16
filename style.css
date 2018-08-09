@@ -1,5 +1,5 @@
 body {
-    max-width: 400px;
+    max-width: 396px;
     margin: 0 auto;
     padding: 10px;
     border: 1px solid black;
@@ -16,19 +16,19 @@ button {
 
 .display {
     height: 95px;
-    /* max-width: 255px; */
+    width: 245px;
     border: 1px solid black;
     margin: 5px;
     padding: 0px 20px;
     vertical-align: top;
+    display: inline-block;
 }
 
-.display-container {
-    max-width: 398px;
+.intake {
+    font-size: 2.5rem;
+    text-align: right;
 }
 
-input.display {
-    width: 280px;
-
+button:active {
+    background-color: #90bf7c;
 }
-
